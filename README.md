@@ -263,43 +263,29 @@ Grad-CAM is used as an exploratory qualitative method. The heatmaps do not repre
 
 ```text
 .
-├── notebooks/
-│   ├── baseline_models.ipynb
-│   ├── baseline_3fold_cross_validation.ipynb
-│   ├── optimized_resnet50.ipynb
-│   ├── optimized_vgg16_densenet121.ipynb
-│   ├── optimized_3fold_cross_validation.ipynb
-│   ├── gradcam_baseline.ipynb
-│   └── gradcam_optimized.ipynb
+├──notebook/
+|   ├── 01_baseline_training&gradcam.ipynb
+|   ├── 02_baseline_3fold_cross_validation.ipynb
+|   ├── 03_ResNet50_optimization_training&gradcam.ipynb
+|   ├── 04_optimized_ResNet50_3fold_cross_validation.ipynb
+|   ├── 05_Vgg16_densenet121_optimization_training&gradcam.ipynb
+|   └── 06_optimized_Vgg16_DenseNet121_3fold_cross_validation.ipynb
 │
 ├── results/
-│   ├── baseline/
-│   │   ├── models/
-│   │   ├── histories/
-│   │   ├── metrics/
-│   │   └── plots/
+│   ├── baseline-first phase/
+│   │   ├── baseline_training/
+│   │   └── CrossValidation/
 │   │
-│   └── optimized/
-│       ├── models/
-│       ├── histories/
-│       ├── metrics/
-│       └── plots/
+│   ├── optimized-second phase/
+│   │   ├── ResNetOPT_training/
+│   │   ├── Vgg16DensenetOPT_training/
+│   │   └── CrossValidation
+│   │
+│   └── GradCam/
+│       ├── baseline_models/
+│       └── optimized_models/
 │
-├── gradcam/
-│   ├── baseline/
-│   ├── optimized_resnet50/
-│   └── optimized_vgg16_densenet121/
 │
-├── figures/
-│   ├── cross_validation/
-│   ├── confusion_matrices/
-│   ├── roc_curves/
-│   └── gradcam/
-│
-├── thesis/
-│   └── thesis.pdf
-│
-├── requirements.txt
 └── README.md
 ```
 
