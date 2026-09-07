@@ -17,13 +17,12 @@ The study compares three ImageNet-pretrained CNN architectures:
 
 The purpose was not only to identify the model with the best quantitative performance, but also to investigate how preprocessing choices, transfer-learning strategy, regularisation, and fine-tuning influence model behaviour in a dermoscopic classification task.
 
-The experimental workflow consists of two main phases:
+The experimental workflow consists of 3 main phases:
 1. **Baseline comparison**  
    VGG16, ResNet50, and DenseNet121 were trained using the same transfer-learning pipeline.
 2. **Targeted optimisation**  
    ResNet50, VGG16, and DenseNet121 were optimised using model-specific or regularisation-oriented strategies.
-
-Grad-CAM was subsequently used to qualitatively inspect which image regions contributed most to each model prediction.
+3. **Grad-CAM** was subsequently used to qualitatively inspect which image regions contributed most to each model prediction.
 
 
 ## Objectives
@@ -39,7 +38,7 @@ Each architecture was trained and evaluated across three stratified folds. Perfo
 3. **Optimise model configurations and evaluate robustness through stratified 3-fold cross-validation**  
    Following the baseline results, targeted optimisation strategies were applied. ResNet50 received model-specific preprocessing, partial fine-tuning, a lower learning rate, and early stopping. VGG16 and DenseNet121 were optimised through stronger augmentation, L2 regularisation, Batch Normalization, increased Dropout, EarlyStopping, and learning-rate reduction on plateau. Performance was assessed using accuracy, sensitivity, specificity, precision, F1-score, AUC-ROC, ROC curves, and confusion matrices. Results are reported as descriptive mean values across folds.
 
-4. **investigate explainability with Grad-CAM**
+4. **Investigate explainability with Grad-CAM**
      Grad-CAM was then used to qualitatively inspect the image regions most associated with model predictions.
 
 
