@@ -68,7 +68,9 @@ The dataset is organized as follows:
 
 The training images were used for model fitting and stratified cross-validation. The test directory was kept separate from cross-validation and was used for the first training/test runs and for the qualitative Grad-CAM analysis.
 
-> The image files themselves are not redistributed in this repository. Please obtain the dataset from its original Kaggle source and arrange it according to the directory structure below.
+> The image files themselves are not redistributed in this repository. 
+The dataset can be found at this link: https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign
+Please obtain the dataset from its original Kaggle source and arrange it according to the directory structure below.
 
 ```text
 kaggle/
