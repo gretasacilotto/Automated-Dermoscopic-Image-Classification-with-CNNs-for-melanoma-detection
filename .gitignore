@@ -1,0 +1,25 @@
+# =========================================================
+# DATASET
+# Do not upload dermoscopic images or downloaded datasets
+# =========================================================
+data/
+dataset/
+datasets/
+kaggle/
+train/
+test/
+*.zip
+*.rar
+*.7z
+
+# =========================================================
+# TRAINED MODELS AND WEIGHTS
+# =========================================================
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.weights.h5
+checkpoints/
+models/
+weights/
