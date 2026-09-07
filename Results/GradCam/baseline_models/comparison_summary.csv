@@ -1,0 +1,4 @@
+Model,TP,TN,FP,FN
+VGG16,8,8,2,2
+ResNet50,0,10,0,10
+DenseNet121,8,8,2,2
