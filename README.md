@@ -279,8 +279,10 @@ Grad-CAM is used as an exploratory qualitative method. The heatmaps do not repre
 │
 ├── Sacilotto Greta_elaborato finale tesi triennale
 │
-├── Results/
-└── GradCam/
+└── Results/
+  ├── baseline-first phase.zip
+  ├── optimized-second phase.zip
+  └── GradCam/
     ├── baseline_models/
     │   ├── all_models_gradcam_results.csv
     │   ├── benign_grid_comparison.png
@@ -288,40 +290,39 @@ Grad-CAM is used as an exploratory qualitative method. The heatmaps do not repre
     │   ├── malignant_grid_comparison.png
     │   └── vgg16_vs_resnet_vs_densenet_comparison.csv
     │
-    ├── optimized_models/
-    │   ├── OPTResnet/
-    │   │   ├── benign_01_panel.png
-    │   │   ├── benign_02_panel.png
-    │   │   ├── benign_03_panel.png
-    │   │   ├── benign_04_panel.png
-    │   │   ├── benign_05_panel.png
-    │   │   ├── benign_06_panel.png
-    │   │   ├── benign_07_panel.png
-    │   │   ├── benign_08_panel.png
-    │   │   ├── benign_09_panel.png
-    │   │   ├── benign_10_panel.png
-    │   │   ├── malignant_01_panel.png
-    │   │   ├── malignant_02_panel.png
-    │   │   ├── malignant_03_panel.png
-    │   │   ├── malignant_04_panel.png
-    │   │   ├── malignant_05_panel.png
-    │   │   ├── malignant_06_panel.png
-    │   │   ├── malignant_07_panel.png
-    │   │   ├── malignant_08_panel.png
-    │   │   ├── malignant_09_panel.png
-    │   │   ├── malignant_10_panel.png
-    │   │   ├── benign_grid_comparison.png
-    │   │   ├── malignant_grid_comparison.png
-    │   │   ├── resnet_optimized_gradcam_results.csv
-    │   │   └── resnet_optimized_summary.csv
-    │   │
-    │   ├── VggDenseNet_benign_grid_comparison.png
-    │   ├── VggDenseNet_gradcam_results.csv
-    │   ├── VggDenseNet_malignant_grid_comparison.png
-    │   └── vgg16_vs_densenet_comparison.csv
-    │
-    ├── baseline-first phase.zip
-    └── optimized-second phase.zip
+    └──optimized_models/
+        ├── OPTResnet/
+        │   ├── benign_01_panel.png
+        │   ├── benign_02_panel.png
+        │   ├── benign_03_panel.png
+        │   ├── benign_04_panel.png
+        │   ├── benign_05_panel.png
+        │   ├── benign_06_panel.png
+        │   ├── benign_07_panel.png
+        │   ├── benign_08_panel.png
+        │   ├── benign_09_panel.png
+        │   ├── benign_10_panel.png
+        │   ├── malignant_01_panel.png
+        │   ├── malignant_02_panel.png
+        │   ├── malignant_03_panel.png
+        │   ├── malignant_04_panel.png
+        │   ├── malignant_05_panel.png
+        │   ├── malignant_06_panel.png
+        │   ├── malignant_07_panel.png
+        │   ├── malignant_08_panel.png
+        │   ├── malignant_09_panel.png
+        │   ├── malignant_10_panel.png
+        │   ├── benign_grid_comparison.png
+        │   ├── malignant_grid_comparison.png
+        │   ├── resnet_optimized_gradcam_results.csv
+        │   └── resnet_optimized_summary.csv
+        │
+        ├── VggDenseNet_benign_grid_comparison.png
+        ├── VggDenseNet_gradcam_results.csv
+        ├── VggDenseNet_malignant_grid_comparison.png
+        └── vgg16_vs_densenet_comparison.csv
+     
+    
 ```
 ## Trained model files
 
