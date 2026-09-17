@@ -46,7 +46,11 @@ Each architecture was trained and evaluated across three stratified folds. Perfo
 
 In the baseline configuration, DenseNet121 achieved the best overall balance between sensitivity and specificity. VGG16 showed relatively high sensitivity but lower specificity. ResNet50 initially performed poorly because it classified almost all samples as benign, resulting in near-zero sensitivity despite very high specificity.
 
-After targeted optimisation, ResNet50 showed the largest improvement and achieved the highest mean values among the tested configurations for accuracy, sensitivity, F1-score, and AUC. These findings highlight that performance depends not only on the selected CNN architecture, but also on input preprocessing, the transfer-learning strategy, regularisation, and the extent to which the pretrained backbone is adapted to the new domain.
+After targeted optimisation, ResNet50 showed the largest improvement and achieved the highest mean values among the tested configurations for accuracy, sensitivity, F1-score, and AUC. 
+
+Explainability represents a fundamental step for assessing whether model predictions are clinically coherent with the dermoscopic domain. DenseNet121 generally produced plausible activation maps well aligned with the lesion, Vgg16 showed more diffuse attention. After optimisation, ResNet50 generated richer and less repetitive maps than in the baseline configuration. These observations were consistent with the metrics obtained during the quantitative analysis.
+
+These findings highlight that performance depends not only on the selected CNN architecture, but also on input preprocessing, the transfer-learning strategy, regularisation, and the extent to which the pretrained backbone is adapted to the new domain.
 
 This repository is intended for educational and research purposes. The models are not clinically validated and must not be used as diagnostic tools.
 
