@@ -273,6 +273,8 @@ Grad-CAM is used as an exploratory qualitative method. The heatmaps do not repre
 │   ├── 05_Vgg16_densenet121_optimization_training&gradcam.ipynb
 │   └── 06_optimized_Vgg16_DenseNet121_3fold_cross_validation.ipynb
 │
+├── Sacilotto Greta tesi_ classificazione automatica di immagini dermoscopiche tramite CNN
+│
 ├── Results/
 └── GradCam/
     ├── baseline_models/
